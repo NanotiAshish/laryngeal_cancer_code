@@ -1,3 +1,9 @@
+%Author:        Ashish Nanoti
+%Email:         ashish.nanoti@somaiya.edu
+%University:    KJ Somaiya College of Engineering
+%This program accepts an audio sample  as input and returns a
+%result of Neural Network.
+
 % Programm Starts Here
 clear all;
 close all;

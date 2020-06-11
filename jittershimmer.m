@@ -1,3 +1,11 @@
+%Author:        Ashish Nanoti
+%Email:         ashish.nanoti@somaiya.edu
+%University:    KJ Somaiya College of Engineering Mumbai
+%Syntax:        [no_pich_periods,jitt_local,jitt_local_absolute,jitt_RAP,jitt_PPQ,jitt_dB,shim_rel,
+%shimm_local_abso,shim_APQ3,shim_APQ5,shim_dB] = jittershimmer(maxs,mins);
+%This function accepts maxs,mins of Audio Window and returns number of Pich Periods, Jitter Local,Jitter Local Absolute, Jitter RAP, Jitter PPQ,
+%Jitter in dB, Shimer Relative, Shimmer Local Absolute,Shimmer APQ3, Shimmer APQ5, Shimmer in dB
+
 function [no_pich_periods,jitt_local,jitt_local_absolute,jitt_RAP,jitt_PPQ5,jitt_dB,shim_rel,shimm_local_abso,shim_APQ3,shim_APQ5,shim_dB]=JitterShimmer(maxs,mins)
 % actual code -->JitterShimmer.m
 % dt=1/fs;
